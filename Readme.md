@@ -79,7 +79,7 @@ Cuckoo - script validation form. Check name (latin and cyrylic), phone number и
         - format: '380'         --> international number format (required)
         - len: 13               --> len of phone number (required)
 
----КАК ИСПОЛЬЗОВАТЬ---
+---HOW TO USE---
 
     1. Insert in index.html the form in this format:
         <form action="" class="cuckoo">
