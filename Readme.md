@@ -29,4 +29,31 @@ Cuckoo - скрипт валидации формы. Проверка именн
         - format: '380'         --> международный формат номера (обязательное поле)
         - len: 13               --> длина всего номера (обязательное поле)
             
+---КАК ИСПОЛЬЗОВАТЬ---
+
+    1. Вставить в index.html форму в таком формате:
+        <form action="" class="cuckoo">
+
+                <div class="cuckoo_wrapper">
+                    <input type="text" placeholder="Input name..." class="cuckoo_name" type="text"> 
+                    <div class="cuckoo_warning none"></div>
+                </div>
+
+                <div class="cuckoo_wrapper">
+                    <input type="text" placeholder="Input phone..." class="cuckoo_phone" type="tel">
+                    <div class="cuckoo_warning none"></div>
+                </div>
+
+                <div class="cuckoo_wrapper">
+                    <input type="text" placeholder="Input email..." class="cuckoo_email" type="email">
+                    <div class="cuckoo_warning none"></div>
+                </div>
+
+                <button class="cuckoo_submit">Отправить</button>
+            
+            </form>
+
+    2. Подключить script.js, jquery.js, style.min.css
+    3. Настройка под свои криетерии
+
 
