@@ -59,3 +59,22 @@ Cuckoo - скрипт валидации формы. Проверка именн
     3. Настройка под свои криетерии
 
 
+---------[EN]---------
+
+---DESCRIPTION---
+
+Cuckoo - script validation form. Check name (latin and cyrylic), phone number и email. Submit only JQuery-AJAX
+
+---POSSIBILITIES---
+
+    General: 
+        - сlass: 'cuckoo_name'  --> settings of class stylisation (for your own risk)
+        - require: true         --> settings of field requirement
+
+    For name: 
+        - minlen: 2             --> min length of name (default)
+        - maxlen: 16            --> max length of name (default)
+
+    For phone:
+        - format: '380'         --> international number format (required)
+        - len: 13               --> len of phone number (required)
