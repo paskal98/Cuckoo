@@ -99,7 +99,7 @@ Cuckoo - script validation form. Check name (latin and cyrylic), phone number и
                     <div class="cuckoo_warning none"></div>
                 </div>
 
-                <button class="cuckoo_submit">Отправить</button>
+                <button class="cuckoo_submit">Send</button>
             
             </form>
 
